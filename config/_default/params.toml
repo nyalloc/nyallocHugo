@@ -1,6 +1,6 @@
 logoText = "nyalloc()"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "nyalloc.io is where Stuart Adams (@nyalloc) talks code, cats and death metal."
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
