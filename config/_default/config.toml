@@ -1,4 +1,4 @@
-baseURL = "http://nyalloc.io"
+baseURL = "https://nyalloc.io"
 title = "nyalloc"
 theme = "zzo"
 
