@@ -1,0 +1,65 @@
+
+Sparse-Set Handle allocator gist
+    Technique seen in BGFX and Entt for allocating unique IDs
+
+I wish I was taught... Code Generation
+    Generating a simple Color class with functions for XNA colours from Python
+    Setting it up as a Custom build step in CMake
+
+I wish I was taught... The Preprocessor
+    Valid use cases for the Preprocessor
+    Tricks you can use (enum to string)
+
+I wish I was taught... Allocation
+    How to correctly use new / delete
+    How to correctly use malloc / free
+    Smart pointers / RAII
+    Placement new
+    Garbage Collection
+    A word on custom allocators
+
+I wish I was taught... Small Buffer Optimisation
+
+I wish I was taught... Debugging
+
+I wish I was taught... Sanitizers
+
+I wish I was taught... Unit Testing
+
+I wish I was taught... Cross Platform Code
+
+WTF is an ABI?
+    * What is an ABI?
+    * When does ABI become a problem?
+        * ABI mismatch can cause explosions!
+        * Hard to improve code once it is in the wild.
+    * Example of real-world ABI breakages causing problems.
+    * Why is it so brittle in C++?
+    * How can we avoid ABI problems?
+        * Compile everything from source.
+            * Ideal in theory, not always applicable in practice.
+            * Not an option in many domains where implementation is secret.
+        * Change the way you write your code.
+            * Don't ship APIs with types you don't control.
+            * ABI version check as part of API.
+            * C APIs
+                * Hourglass APIs
+            * Opaque pointers (PImpl idiom)
+            * Header-only libraries
+                * True Header-Only
+                * STB-style
+    * Conclusion
+        * Pick your poison. All options stink, but some may stink less
+        for your specific use case.
+        * ABI is not a boogeyman, but it is here to stay.
+    * Further Reading
+        * Defining a Portable C++ ABI Herb Sutter N4028
+        * MSVC ABI break preventing STL performance improvements for years
+        * (More to come)
+
+I wish I was taught... Custom Allocators
+    What is a custom allocator?
+    How do I use a custom allocator?
+    How do I write a custom allocator?
+    Alignment.
+    Common allocators and how to write them.
