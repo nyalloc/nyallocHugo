@@ -16,6 +16,8 @@ tags:
 
 ## Curiosity killed the cat
 
+![Example image](/violence.png)
+
 Are you a C++ student? Do you want to explore all the vile Lovecraftian horrors that lie just beneath the surface? If you'd like to take that first brave step into the abyss, you're in luck. I'm starting a series of articles called **_WTF is this?_** where I will expose newer programmers to the gritty, hair-raising monstrosities that I wish I had learned sooner.
 
 When I was a student, I felt like there weren't a lot of resources out there that approached technical problems in a conversational, non-academic way. Personally, I learn best by getting my hands dirty, breaking things, and exchanging horror stories with my friends and colleagues. So, in this series I want to start deconstructing concepts that I really struggled to get my head around when I was studying. Some of my ideas include:
